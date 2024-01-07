@@ -68,12 +68,16 @@ nav a
 .header
 {
     background-color:#FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner
 {
-    margin: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .btntwo
 {
@@ -85,6 +89,8 @@ nav a
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    margin-left: 30px;
+    margin-top: 30px;
     
 }
 .profile-pic
@@ -92,4 +98,58 @@ nav a
     width: 500px;
     height: 600px;
     flex-shrink: 0;
+}
+.banner-greetings
+{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title
+{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 0;
+}
+.banner p
+{
+    margin-top: 20px;
+    width: 585px;
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+/* about section */
+.about
+{
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin: 130px 180px;
+    
+}
+.section-title
+{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-description
+{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 827px;
+margin: auto;
 }
